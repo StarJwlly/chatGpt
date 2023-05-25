@@ -2,10 +2,6 @@ import java.io.FileInputStream;
 import java.util.ArrayList;
 import java.util.Properties;
 
-import javax.swing.JOptionPane;
-
-import com.google.gson.Gson;
-
 public class App {
     private static String OPENAI_API_KEY;
     public static void main(String[] args) throws Exception {
