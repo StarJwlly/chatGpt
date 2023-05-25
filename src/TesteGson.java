@@ -3,7 +3,7 @@ import com.google.gson.Gson;
 public class TesteGson {
     public static void main(String[] args) {
         ChatGptCompletionRequest request = new ChatGptCompletionRequest(
-            "text-davinci-003", "Por que o ceu é verde?", 150);
+            "text-davinci-003", "Por que o ceu é verde?", 150, 1);
         
         Gson gson = new Gson();
         String json = gson.toJson(request);
